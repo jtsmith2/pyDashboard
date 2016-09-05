@@ -168,7 +168,7 @@ class OneDayCalWidget(QtGui.QWidget):
                 span = datetime.datetime.now(self.dtCalStart.tzinfo) - self.dtCalStart
                 spanHours = span.total_seconds()/3600.0
                 relHeight = spanHours/hours
-                qp.drawLine(0, 50+(self.height()-50)*relHeight, self.width(), 50+(self.height()-50)*relHeight)
+                qp.drawLine(0, 25+self.titleHeight+(self.height()-50-self.titleHeight)*relHeight, self.width(), 25+self.titleHeight+(self.height()-50-self.titleHeight)*relHeight)
         
     def drawEvents(self, qp):
 
