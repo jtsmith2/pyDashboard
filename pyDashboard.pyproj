@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7208319d-4491-4901-aa45-6b66ebfad993}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Dashboard.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Config-Sample.py" />
+    <Compile Include="Config.py" />
+    <Compile Include="Dashboard.py" />
+    <Compile Include="pynYNAB\Client.py" />
+    <Compile Include="pynYNAB\connection.py" />
+    <Compile Include="pynYNAB\Entity.py" />
+    <Compile Include="pynYNAB\KeyGenerator.py" />
+    <Compile Include="pynYNAB\roots.py" />
+    <Compile Include="pynYNAB\schema\budget.py" />
+    <Compile Include="pynYNAB\schema\catalog.py" />
+    <Compile Include="pynYNAB\schema\Fields.py" />
+    <Compile Include="pynYNAB\schema\__init__.py" />
+    <Compile Include="pynYNAB\scripts\config.py" />
+    <Compile Include="pynYNAB\scripts\csvimport.py" />
+    <Compile Include="pynYNAB\scripts\generate_doc.py" />
+    <Compile Include="pynYNAB\scripts\migrate.py" />
+    <Compile Include="pynYNAB\scripts\ofximport.py" />
+    <Compile Include="pynYNAB\scripts\TestScript.py" />
+    <Compile Include="pynYNAB\scripts\verifyschema.py" />
+    <Compile Include="pynYNAB\scripts\__init__.py" />
+    <Compile Include="pynYNAB\utils.py" />
+    <Compile Include="pynYNAB\__init__.py" />
+    <Compile Include="Widgets\BasicDayInfoWidget.py" />
+    <Compile Include="Widgets\DriveTimeWidget.py" />
+    <Compile Include="Widgets\GoogleMercatorProjection.py" />
+    <Compile Include="Widgets\OneDayCalWidget.py" />
+    <Compile Include="Widgets\WeatherWidget.py" />
+    <Compile Include="Widgets\ynabWidget.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pynYNAB" />
+    <Folder Include="pynYNAB\schema" />
+    <Folder Include="pynYNAB\scripts" />
+    <Folder Include="Widgets" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
