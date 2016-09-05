@@ -27,13 +27,13 @@ import random
 
 import googlemaps
 
-from GoogleMercatorProjection import LatLng, Point, getCorners
+from Widgets.GoogleMercatorProjection import LatLng, Point, getCorners
 
-from WeatherWidget import weatherWidget
-from DriveTimeWidget import drivetimeWidget
-from ynabWidget import ynabWidget
-from OneDayCalWidget import OneDayCalWidget
-from BasicDayInfoWidget import basicDayInfoWidget
+from Widgets.WeatherWidget import weatherWidget
+from Widgets.DriveTimeWidget import drivetimeWidget
+from Widgets.ynabWidget import ynabWidget
+from Widgets.OneDayCalWidget import OneDayCalWidget
+from Widgets.BasicDayInfoWidget import basicDayInfoWidget
 
 try:
         import argparse
