@@ -1,7 +1,7 @@
 # pyDashboard
 A morning dashboard pulling information from around the web
 
-![Dashboard Image](http://)
+![Dashboard Image](https://raw.githubusercontent.com/jtsmith2/pyDashboard/master/Images/Dashboard_Screenshot.png)
 
 ## Background
 
