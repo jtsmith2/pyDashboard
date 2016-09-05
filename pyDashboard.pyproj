@@ -49,6 +49,7 @@
     <Compile Include="Widgets\OneDayCalWidget.py" />
     <Compile Include="Widgets\WeatherWidget.py" />
     <Compile Include="Widgets\ynabWidget.py" />
+    <Compile Include="Widgets\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="pynYNAB" />
