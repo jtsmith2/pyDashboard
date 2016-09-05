@@ -4,17 +4,17 @@ A morning dashboard pulling information from around the web
 ## Background
 
 This project started as a modification of [PiClock](http://www.github.com/n0bel/piClock) which is basically a clock/weather
-radio replacement with forecasts and radar.  I thought that was a pretty cool idea, but I didn\'t need so much weather info, but
+radio replacement with forecasts and radar.  I thought that was a pretty cool idea, but I didn't need so much weather info, but
 would really have liked other info.  And so pyDashboard was born.  
 
 ## The Basics
 
 pyDashboard pulls information from the following sources:
 
--Weather Underground (for weather)
--Google Maps (for drive times)
--Google Calendar (for calendar events)
--You Need a Budget (for the budget categories)
+- Weather Underground (for weather)
+- Google Maps (for drive times)
+- Google Calendar (for calendar events)
+- You Need a Budget (for the budget categories)
 
 ### Weather Widget
 
@@ -30,7 +30,7 @@ locations in Config.py to get drive times to multiple destinations.
 ### Calendar Widget
 
 This widget uses OAuth2 and so the first time you use the software, it should ask you for your Google credentials and store
-those locally so that you won\'t be prompted again.  You can pull multiple calendars from your Google account (including those
+those locally so that you won't be prompted again.  You can pull multiple calendars from your Google account (including those
 shared with you) and specify different colors to display each.
 
 ### YNAB Widget
@@ -42,10 +42,10 @@ notes field contains "Show in Dashboard", it will be pulled in.  This phrase is 
 ## Prerequisites
 
 The following must be installed on the system:
--Python 2.7 (not 3)
--PyQt4
--Google Maps Python Client
--Google Calendar Python Client
+- Python 2.7 (not 3)
+- PyQt4
+- Google Maps Python Client
+- Google Calendar Python Client
 
 ### Python 2.7
 
@@ -65,5 +65,5 @@ See [Google Developer](https://developers.google.com/google-apps/calendar/quicks
 
 ## About Me
 
-I\'m a stats professor by day in the Atlanta metro area.  You can find me on twitter 
+I'm a stats professor by day in the Atlanta metro area.  You can find me on twitter 
 at http://www.twitter.com/jtsmith2 or on FB at http://facebook.com/jtsmith2
