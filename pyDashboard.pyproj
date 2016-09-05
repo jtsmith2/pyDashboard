@@ -52,6 +52,7 @@
     <Compile Include="Widgets\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Images\" />
     <Folder Include="pynYNAB" />
     <Folder Include="pynYNAB\schema" />
     <Folder Include="pynYNAB\scripts" />
@@ -61,6 +62,8 @@
     <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="Images\Dashboard_Screenshot.png" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />

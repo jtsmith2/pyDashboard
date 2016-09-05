@@ -1,6 +1,8 @@
 # pyDashboard
 A morning dashboard pulling information from around the web
 
+![Dashboard Image](http://)
+
 ## Background
 
 This project started as a modification of [PiClock](http://www.github.com/n0bel/piClock) which is basically a clock/weather
