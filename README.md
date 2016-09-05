@@ -63,6 +63,15 @@ See [Google Maps Client Website](https://github.com/googlemaps/google-maps-servi
 
 See [Google Developer](https://developers.google.com/google-apps/calendar/quickstart/python)
 
+## Installation
+
+Install all the prerequisites first then you'll need to either download the master branch of 
+the git repository or clone it.  Once you have the code, you'll need to copy the Config-Example.py 
+file and rename it as Config.py.  Then add your Weather Underground API key and your Google Maps API key.
+Edit the default location information in each section and add your calendar information.
+
+You should be able to now run the Dashboard.py file and be up and running!
+
 ## About Me
 
 I'm a stats professor by day in the Atlanta metro area.  You can find me on twitter 
